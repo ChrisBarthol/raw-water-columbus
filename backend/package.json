@@ -1,14 +1,13 @@
 {
-  "name": "raw-water-columbus-frontend",
+  "name": "raw-water-columbus-backend",
   "version": "1.0.0",
-  "description": "The frontend for raw water columbus.",
+  "description": "The backend for raw water columbus.",
   "scripts": {
     "start": "nodemon -e js,graphql -x node src/index.js",
     "dev": "nodemon -e js,graphql -x node --inspect src/index.js",
     "test": "jest",
     "deploy": "prisma deploy --env-file variables.env"
   },
-  "main": "index.js",
   "author": "Chris Barthol",
   "license": "MIT",
   "dependencies": {
